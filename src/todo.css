@@ -1,0 +1,59 @@
+/* Style for the main container */
+.todo-container {
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #012951;
+}
+
+/* Style for the input field */
+.todo-input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Style for the button */
+.todo-button {
+  padding: 10px 15px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.create-button {
+  background-color: #28a745;
+  color: black;
+}
+
+.delete-button {
+  background-color: #e80b21df;
+  color: black;
+}
+
+.edit-button {
+  background-color: #bec41d;
+  color: black;
+}
+
+/* Style for the task list items */
+.todo-list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  color: whitesmoke;
+}
+
+.todo-list-item:last-child {
+  border-bottom: none;
+}
